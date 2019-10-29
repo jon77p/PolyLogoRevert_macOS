@@ -407,6 +407,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert Extension/Poly_Logo_Revert_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = QR825BQSTL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Poly Logo Revert Extension/Info.plist";
@@ -415,7 +416,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "in.smpark.Poly-Logo-Revert-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.smpark.Poly-Logo-Revert.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -427,6 +428,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert Extension/Poly_Logo_Revert_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = QR825BQSTL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Poly Logo Revert Extension/Info.plist";
@@ -435,7 +437,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "in.smpark.Poly-Logo-Revert-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.smpark.Poly-Logo-Revert.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,6 +452,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert/Poly_Logo_Revert.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = QR825BQSTL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Poly Logo Revert/Info.plist";
@@ -471,6 +474,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert/Poly_Logo_Revert.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = QR825BQSTL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Poly Logo Revert/Info.plist";

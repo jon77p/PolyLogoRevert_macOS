@@ -3,7 +3,7 @@
 window.addEventListener('DOMContentLoaded', function () {
     let loginContainers = document.getElementsByClassName("container");
     for (const element of loginContainers) {
-        if (window.getComputedStyle(element).borderTopColor.includes("rgb(198, 146, 20)")) {
+        if ((window.getComputedStyle(element).borderTopColor.includes("rgb(198, 146, 20)")) || (window.getComputedStyle(element).borderTopColor.includes("rgb(184, 135, 19)"))) {
             element.style.borderTopColor = "#024434";
         }
     }
