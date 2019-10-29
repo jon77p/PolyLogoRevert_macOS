@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0B41A0D235F9C9A00D19A2D /* Poly_Logo_Revert.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A0C235F9C9A00D19A2D /* Poly_Logo_Revert.entitlements */; };
+		C0B41A0F235F9C9A00D19A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41A0E235F9C9A00D19A2D /* AppDelegate.swift */; };
+		C0B41A12235F9C9A00D19A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A10235F9C9A00D19A2D /* Main.storyboard */; };
+		C0B41A14235F9C9A00D19A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41A13235F9C9A00D19A2D /* ViewController.swift */; };
+		C0B41A16235F9C9A00D19A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A15235F9C9A00D19A2D /* Assets.xcassets */; };
+		C0B41A1D235F9C9A00D19A2D /* Poly Logo Revert Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0B41A1C235F9C9A00D19A2D /* Poly Logo Revert Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0B41A22235F9C9A00D19A2D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B41A21235F9C9A00D19A2D /* Cocoa.framework */; };
+		C0B41A25235F9C9A00D19A2D /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41A24235F9C9A00D19A2D /* SafariExtensionHandler.swift */; };
+		C0B41A27235F9C9A00D19A2D /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41A26235F9C9A00D19A2D /* SafariExtensionViewController.swift */; };
+		C0B41A2A235F9C9A00D19A2D /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A28235F9C9A00D19A2D /* SafariExtensionViewController.xib */; };
+		C0B41A2D235F9C9A00D19A2D /* portal_logo.js in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A2C235F9C9A00D19A2D /* portal_logo.js */; };
+		C0B41A2F235F9C9A00D19A2D /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A2E235F9C9A00D19A2D /* ToolbarItemIcon.pdf */; };
+		C0B41A3B235F9CD700D19A2D /* favicon.js in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A3A235F9CD700D19A2D /* favicon.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0B41A1E235F9C9A00D19A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0B41A01235F9C9A00D19A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0B41A1B235F9C9A00D19A2D;
+			remoteInfo = "Poly Logo Revert Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0B41A36235F9C9A00D19A2D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0B41A1D235F9C9A00D19A2D /* Poly Logo Revert Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0B41A09235F9C9A00D19A2D /* Poly Logo Revert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poly Logo Revert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B41A0C235F9C9A00D19A2D /* Poly_Logo_Revert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Poly_Logo_Revert.entitlements; sourceTree = "<group>"; };
+		C0B41A0E235F9C9A00D19A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0B41A11235F9C9A00D19A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0B41A13235F9C9A00D19A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0B41A15235F9C9A00D19A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0B41A17235F9C9A00D19A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B41A1C235F9C9A00D19A2D /* Poly Logo Revert Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Poly Logo Revert Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B41A21235F9C9A00D19A2D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C0B41A24235F9C9A00D19A2D /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		C0B41A26235F9C9A00D19A2D /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		C0B41A29235F9C9A00D19A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		C0B41A2B235F9C9A00D19A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B41A2C235F9C9A00D19A2D /* portal_logo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = portal_logo.js; sourceTree = "<group>"; };
+		C0B41A2E235F9C9A00D19A2D /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		C0B41A30235F9C9A00D19A2D /* Poly_Logo_Revert_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Poly_Logo_Revert_Extension.entitlements; sourceTree = "<group>"; };
+		C0B41A3A235F9CD700D19A2D /* favicon.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = favicon.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0B41A06235F9C9A00D19A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B41A19235F9C9A00D19A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B41A22235F9C9A00D19A2D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0B41A00235F9C9A00D19A2D = {
+			isa = PBXGroup;
+			children = (
+				C0B41A0B235F9C9A00D19A2D /* Poly Logo Revert */,
+				C0B41A23235F9C9A00D19A2D /* Poly Logo Revert Extension */,
+				C0B41A20235F9C9A00D19A2D /* Frameworks */,
+				C0B41A0A235F9C9A00D19A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0B41A0A235F9C9A00D19A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0B41A09235F9C9A00D19A2D /* Poly Logo Revert.app */,
+				C0B41A1C235F9C9A00D19A2D /* Poly Logo Revert Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0B41A0B235F9C9A00D19A2D /* Poly Logo Revert */ = {
+			isa = PBXGroup;
+			children = (
+				C0B41A0C235F9C9A00D19A2D /* Poly_Logo_Revert.entitlements */,
+				C0B41A0E235F9C9A00D19A2D /* AppDelegate.swift */,
+				C0B41A10235F9C9A00D19A2D /* Main.storyboard */,
+				C0B41A13235F9C9A00D19A2D /* ViewController.swift */,
+				C0B41A15235F9C9A00D19A2D /* Assets.xcassets */,
+				C0B41A17235F9C9A00D19A2D /* Info.plist */,
+			);
+			path = "Poly Logo Revert";
+			sourceTree = "<group>";
+		};
+		C0B41A20235F9C9A00D19A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0B41A21235F9C9A00D19A2D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0B41A23235F9C9A00D19A2D /* Poly Logo Revert Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C0B41A24235F9C9A00D19A2D /* SafariExtensionHandler.swift */,
+				C0B41A26235F9C9A00D19A2D /* SafariExtensionViewController.swift */,
+				C0B41A28235F9C9A00D19A2D /* SafariExtensionViewController.xib */,
+				C0B41A2B235F9C9A00D19A2D /* Info.plist */,
+				C0B41A2C235F9C9A00D19A2D /* portal_logo.js */,
+				C0B41A3A235F9CD700D19A2D /* favicon.js */,
+				C0B41A2E235F9C9A00D19A2D /* ToolbarItemIcon.pdf */,
+				C0B41A30235F9C9A00D19A2D /* Poly_Logo_Revert_Extension.entitlements */,
+			);
+			path = "Poly Logo Revert Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0B41A08235F9C9A00D19A2D /* Poly Logo Revert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B41A37235F9C9A00D19A2D /* Build configuration list for PBXNativeTarget "Poly Logo Revert" */;
+			buildPhases = (
+				C0B41A05235F9C9A00D19A2D /* Sources */,
+				C0B41A06235F9C9A00D19A2D /* Frameworks */,
+				C0B41A07235F9C9A00D19A2D /* Resources */,
+				C0B41A36235F9C9A00D19A2D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B41A1F235F9C9A00D19A2D /* PBXTargetDependency */,
+			);
+			name = "Poly Logo Revert";
+			productName = "Poly Logo Revert";
+			productReference = C0B41A09235F9C9A00D19A2D /* Poly Logo Revert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0B41A1B235F9C9A00D19A2D /* Poly Logo Revert Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B41A33235F9C9A00D19A2D /* Build configuration list for PBXNativeTarget "Poly Logo Revert Extension" */;
+			buildPhases = (
+				C0B41A18235F9C9A00D19A2D /* Sources */,
+				C0B41A19235F9C9A00D19A2D /* Frameworks */,
+				C0B41A1A235F9C9A00D19A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poly Logo Revert Extension";
+			productName = "Poly Logo Revert Extension";
+			productReference = C0B41A1C235F9C9A00D19A2D /* Poly Logo Revert Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0B41A01235F9C9A00D19A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Stephen Parkinson";
+				TargetAttributes = {
+					C0B41A08235F9C9A00D19A2D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					C0B41A1B235F9C9A00D19A2D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = C0B41A04235F9C9A00D19A2D /* Build configuration list for PBXProject "Poly Logo Revert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0B41A00235F9C9A00D19A2D;
+			productRefGroup = C0B41A0A235F9C9A00D19A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0B41A08235F9C9A00D19A2D /* Poly Logo Revert */,
+				C0B41A1B235F9C9A00D19A2D /* Poly Logo Revert Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0B41A07235F9C9A00D19A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B41A0D235F9C9A00D19A2D /* Poly_Logo_Revert.entitlements in Resources */,
+				C0B41A16235F9C9A00D19A2D /* Assets.xcassets in Resources */,
+				C0B41A12235F9C9A00D19A2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B41A1A235F9C9A00D19A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B41A2F235F9C9A00D19A2D /* ToolbarItemIcon.pdf in Resources */,
+				C0B41A2A235F9C9A00D19A2D /* SafariExtensionViewController.xib in Resources */,
+				C0B41A2D235F9C9A00D19A2D /* portal_logo.js in Resources */,
+				C0B41A3B235F9CD700D19A2D /* favicon.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0B41A05235F9C9A00D19A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B41A14235F9C9A00D19A2D /* ViewController.swift in Sources */,
+				C0B41A0F235F9C9A00D19A2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B41A18235F9C9A00D19A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B41A27235F9C9A00D19A2D /* SafariExtensionViewController.swift in Sources */,
+				C0B41A25235F9C9A00D19A2D /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0B41A1F235F9C9A00D19A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0B41A1B235F9C9A00D19A2D /* Poly Logo Revert Extension */;
+			targetProxy = C0B41A1E235F9C9A00D19A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0B41A10235F9C9A00D19A2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0B41A11235F9C9A00D19A2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0B41A28235F9C9A00D19A2D /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0B41A29235F9C9A00D19A2D /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0B41A31235F9C9A00D19A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0B41A32235F9C9A00D19A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C0B41A34235F9C9A00D19A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert Extension/Poly_Logo_Revert_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR825BQSTL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Poly Logo Revert Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.smpark.Poly-Logo-Revert-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0B41A35235F9C9A00D19A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert Extension/Poly_Logo_Revert_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR825BQSTL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Poly Logo Revert Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.smpark.Poly-Logo-Revert-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C0B41A38235F9C9A00D19A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert/Poly_Logo_Revert.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QR825BQSTL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Poly Logo Revert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.smpark.Poly-Logo-Revert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0B41A39235F9C9A00D19A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert/Poly_Logo_Revert.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QR825BQSTL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Poly Logo Revert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.smpark.Poly-Logo-Revert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0B41A04235F9C9A00D19A2D /* Build configuration list for PBXProject "Poly Logo Revert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B41A31235F9C9A00D19A2D /* Debug */,
+				C0B41A32235F9C9A00D19A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B41A33235F9C9A00D19A2D /* Build configuration list for PBXNativeTarget "Poly Logo Revert Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B41A34235F9C9A00D19A2D /* Debug */,
+				C0B41A35235F9C9A00D19A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B41A37235F9C9A00D19A2D /* Build configuration list for PBXNativeTarget "Poly Logo Revert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B41A38235F9C9A00D19A2D /* Debug */,
+				C0B41A39235F9C9A00D19A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0B41A01235F9C9A00D19A2D /* Project object */;
+}
