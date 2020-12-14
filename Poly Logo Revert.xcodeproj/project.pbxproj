@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0B41A0D235F9C9A00D19A2D /* Poly_Logo_Revert.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A0C235F9C9A00D19A2D /* Poly_Logo_Revert.entitlements */; };
 		C0B41A0F235F9C9A00D19A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41A0E235F9C9A00D19A2D /* AppDelegate.swift */; };
 		C0B41A12235F9C9A00D19A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B41A10235F9C9A00D19A2D /* Main.storyboard */; };
 		C0B41A14235F9C9A00D19A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41A13235F9C9A00D19A2D /* ViewController.swift */; };
@@ -186,7 +185,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Stephen Parkinson";
 				TargetAttributes = {
 					C0B41A08235F9C9A00D19A2D = {
@@ -221,7 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B41A0D235F9C9A00D19A2D /* Poly_Logo_Revert.entitlements in Resources */,
 				C0B41A16235F9C9A00D19A2D /* Assets.xcassets in Resources */,
 				C0B41A12235F9C9A00D19A2D /* Main.storyboard in Resources */,
 			);
@@ -315,6 +313,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -375,6 +374,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -406,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert Extension/Poly_Logo_Revert_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QR825BQSTL;
@@ -429,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert Extension/Poly_Logo_Revert_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QR825BQSTL;
@@ -454,6 +456,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert/Poly_Logo_Revert.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -478,6 +481,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Poly Logo Revert/Poly_Logo_Revert.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
